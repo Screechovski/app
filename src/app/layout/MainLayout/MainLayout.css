@@ -1,0 +1,21 @@
+.main {
+    display: grid;
+    grid-template-columns: 100px auto;
+    grid-template-rows: auto 100px;
+    grid-template-areas:
+        'header outlet'
+        'footer footer';
+    min-height: 100vh;
+}
+
+.header {
+    grid-area: header;
+}
+
+.outlet {
+    grid-area: outlet;
+}
+
+.footer {
+    grid-area: footer;
+}
