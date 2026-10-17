@@ -11,6 +11,7 @@
     "paths": {
       "@app/*": ["./src/app/*"],
       "@pages/*": ["./src/pages/*"],
+      "@shared/*": ["./src/shared/*"],
     },
 
     /* Bundler mode */
